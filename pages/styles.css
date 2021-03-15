@@ -1,0 +1,80 @@
+/* universal stylings */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(/img/background.jpeg) 100% fixed;
+}
+
+/* clock stylings */
+
+#clock{
+  height: 40vw;
+  width: 40vw;
+  background: url(/img/clock.png) ;
+  background-size: 100%;
+  margin-top: 3vw;
+  margin-left: 3vw;
+  position: relative;
+
+}
+
+#hour, #minute, #second{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  transform-origin: bottom;
+  z-index: 9;
+}
+
+#hour{
+  height: 27%;
+  width: 2%;
+  top: 23%;
+  left: 48.8%;
+  
+
+}
+
+#minute{
+  height: 30%;
+  width: 1.5%;
+  top: 19.5%;
+  left: 48.97%;
+  
+
+}
+
+#second{
+  height: 32%;
+  width: 1%;
+  top: 17.5%;
+  left: 49.2%;
+  
+  
+
+}
+
+
+#date {
+  background: rgba(0, 0, 0, 0.637);
+  width: 32%;
+  height: 6.5%;
+  position: relative;
+  top: 65%;
+  left: 50%;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
